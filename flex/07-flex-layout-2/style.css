@@ -27,3 +27,64 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+/*start from here*/
+body{
+  display: flex;
+  flex-direction: column;
+}
+
+.HEADER{
+  background: darkmagenta;
+  display: flex;
+  align-items: center;
+  height: 72px;
+}
+
+.header{
+  font-size: 32px;
+  font-weight: 900;
+  height: 32px;
+}
+
+.middle{
+  flex: 1;
+  display: flex;
+}
+
+.sidebar{
+  flex-shrink: 0;
+  padding: 16px;
+}
+
+a{
+  font-size: 24px;
+  text-decoration: none;
+  color: white;
+}
+
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  width: 1300px; /* no need*/
+}
+
+.card{
+  outline: auto;
+  width: 300px;
+  margin: 24px;
+  padding: 24px;
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* the code below is just a test to know how to centerize a text in a box, which is not defined as a box.*/
+.test{
+  height: 64px;
+  display: flex;
+  align-items: center;
+}
